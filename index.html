@@ -18,8 +18,8 @@
            .done(function(data){
                  $(data).each(function(){
                if(this.crowded ==='yes'){
-                   var idName="#"+this.id;
-                   $(idName).find('check').addClass('crowded');
+                   var idName='#'+this.id;
+                   $(idName).find('.check').addClass('crowded');
                }
            });
                  })
